@@ -5,6 +5,9 @@
     userId: "cbd79b6a-ee49-41b6-935a-21a6d1aca1b0"
   "linter-rubocop":
     command: "/Users/bsgreenb/.rvm/gems/ruby-2.2.4/wrappers/rubocop"
+  "linter-ui-default":
+    showDecorations: false
+    showPanel: true
   "platformio-ide-terminal":
     core: {}
   welcome:

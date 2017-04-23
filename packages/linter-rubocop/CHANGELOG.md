@@ -1,5 +1,23 @@
 # Changelog
 
+## [v2.1.1](https://github.com/AtomLinter/linter-rubocop/compare/v2.1.0...v2.1.1)
+
+###### Bug Fixes:
+* Unique process spawning -- key process id's by linter name + filepath
+
+## [v2.1.0](https://github.com/AtomLinter/linter-rubocop/compare/v2.0.0...v2.1.0)
+
+###### Changes:
+* Upgrade to `atom-linter@10.0.0`.
+* Unique process spawning -- newer linter process spawns will kill older processes
+
+## [v2.0.0](https://github.com/AtomLinter/linter-rubocop/compare/v1.1.1...v2.0.0)
+
+###### Changes:
+* Upgrade to work with Linter 2 API
+* Pull detailed documentation from bbatsov's style guide
+* Linter timeout configurable (defaults to 10 seconds)
+
 ## [v1.1.1](https://github.com/AtomLinter/linter-rubocop/compare/v1.1.0...v1.1.1)
 
 ###### Bug Fixes:

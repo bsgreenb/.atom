@@ -35,3 +35,5 @@
   'cmd-o': 'fuzzy-finder:toggle-file-finder'
 '.platform-darwin atom-workspace':
   'cmd-`': 'platformio-ide-terminal:toggle'
+'.platform-darwin atom-text-editor':
+  'cmd-b': 'symbols-view:go-to-declaration' 
