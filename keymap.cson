@@ -36,4 +36,6 @@
 '.platform-darwin atom-workspace':
   'cmd-`': 'platformio-ide-terminal:toggle'
 '.platform-darwin atom-text-editor':
-  'cmd-b': 'symbols-view:go-to-declaration' 
+  'cmd-b': 'symbols-view:go-to-declaration',
+  'cmd-r': 'refactor:rename'
+  'enter': 'refactor:done'

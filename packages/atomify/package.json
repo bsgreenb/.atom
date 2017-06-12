@@ -1,0 +1,74 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/72/3tyjcz7s4lzdqrqh87tvqh_r0000gp/T/d-11722-26602-1sn3tr2/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/72/3tyjcz7s4lzdqrqh87tvqh_r0000gp/T/d-11722-26602-1sn3tr2/package.tgz",
+        "spec": "/private/var/folders/72/3tyjcz7s4lzdqrqh87tvqh_r0000gp/T/d-11722-26602-1sn3tr2/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/72/3tyjcz7s4lzdqrqh87tvqh_r0000gp/T/apm-install-dir-11722-26602-k1hxl3"
+    ]
+  ],
+  "_from": "../d-11722-26602-1sn3tr2/package.tgz",
+  "_id": "atomify@0.2.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/atomify",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/72/3tyjcz7s4lzdqrqh87tvqh_r0000gp/T/d-11722-26602-1sn3tr2/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/72/3tyjcz7s4lzdqrqh87tvqh_r0000gp/T/d-11722-26602-1sn3tr2/package.tgz",
+    "spec": "/private/var/folders/72/3tyjcz7s4lzdqrqh87tvqh_r0000gp/T/d-11722-26602-1sn3tr2/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11722-26602-1sn3tr2/package.tgz",
+  "_shasum": "54f7ef3917f7f16fe3900acbc049c89a49695dbe",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/72/3tyjcz7s4lzdqrqh87tvqh_r0000gp/T/d-11722-26602-1sn3tr2/package.tgz",
+  "_where": "/private/var/folders/72/3tyjcz7s4lzdqrqh87tvqh_r0000gp/T/apm-install-dir-11722-26602-k1hxl3",
+  "bugs": {
+    "url": "https://github.com/jaebradley/atomify/issues"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "enumify": "^1.0.4",
+    "immutable": "^3.8.1",
+    "node-osascript": "^1.0.4"
+  },
+  "description": "Where Atom Meets Spotify (For Macs)",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/jaebradley/atomify#readme",
+  "keywords": [
+    "spotify"
+  ],
+  "license": "MIT",
+  "main": "./lib/atomify",
+  "name": "atomify",
+  "optionalDependencies": {},
+  "readme": "# Atomify (Where Atom Meets Spotify)\n\nView and Control your Spotify experience without leaving Atom on a Mac\n\n## Example Usage\n\n### Regular View\n![Example Usage](http://g.recordit.co/r2wi8BV6sm.gif)\n\n### Shortcuts / Commands\n\n#### Toggle Package\n![Toggle Package](http://g.recordit.co/KoKWUThEoL.gif)\n\n### Toggle Shuffle (Alt + Ctrl + S)\n![Toggle Shuffle](http://g.recordit.co/9i84SWdPIr.gif)\n\n### Toggle Repeat (Alt + Ctrl + R)\n![Toggle Repeat](http://g.recordit.co/McLcvYCmuz.gif)\n\n### Toggle Play/Pause (Alt + Ctrl + P)\n![Toggle Play/Pause](http://g.recordit.co/hSbIPnbzYT.gif)\n\n### Next Track (Alt + Ctrl + L)\n![Next Track](http://g.recordit.co/zpnmtQj0Aa.gif)\n\n### Previous Track (Alt + Ctrl + J)\n![Previous Track](http://g.recordit.co/U2Y0qtdwwe.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaebradley/atomify.git"
+  },
+  "version": "0.2.0"
+}
